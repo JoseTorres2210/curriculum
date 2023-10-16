@@ -1,9 +1,10 @@
 * {
     font-family: Arial, sans-serif;
     }
-h2 {
+.my-class {
 font-family: Times New Roman, serif;
 }
+
 h1 {
     font-family: Georgia, serif;
     }
