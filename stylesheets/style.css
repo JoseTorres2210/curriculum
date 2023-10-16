@@ -8,6 +8,7 @@
     }
 .my-class {
 font-family: Times New Roman, serif;
+background-color: #edf0ef;
 }
 
 h1 {
@@ -17,6 +18,73 @@ h1 {
 h2 {
     font-family: Merriweather Sans;
 }
+
+
+#informacion-personal {
+    background-color: #292936;
+    color: #edf0ef;
+    box-sizing: border-box;
+    margin: 20px;
+    border: 1px solid black;
+    padding: 10px;
+  
+}
+section#informacion-personal:ol {
+    color: #262320;
+}
+
+#Educación {
+    background-color: #292936;
+    color: #edf0ef;
+    box-sizing: border-box;
+    margin: 20px;
+    border: 1px solid black;
+    padding: 10px;
+ 
+}
+section#Educación:ol {
+    color: #262320;
+}
+
+#Experiencia-laboral {
+    background-color: #292936;
+    color: #edf0ef;
+    box-sizing: border-box;
+    margin: 20px;
+    border: 1px solid black;
+    padding: 10px;
+
+}
+section#Experiencia-laboral:ol {
+    color: #262320;
+}
+
+#habilidades {
+    background-color: #292936;
+    color: #edf0ef;
+    box-sizing: border-box;
+    margin: 20px;
+    border: 1px solid black;
+    padding: 10px;
+     
+}
+section#habilidades:ol {
+    color: #262320;
+}
+
+#Contacto {
+    background-color: #292936;
+    color: #edf0ef;
+    box-sizing: border-box;
+    margin: 20px;
+    border: 1px solid black;
+    padding: 10px;
+      
+}
+section#Contacto:ol {
+    color: #262320;
+}
+
 
 
         
