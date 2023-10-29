@@ -35,8 +35,7 @@ body{
  grid-template-areas:"IN IN"
                      "INFO IMG"
                       "EDU EDU"
-                      "EL EL"
-                      "HAB HAB"
+                      "EL HAB"
                       "CON CON";
 
 }
