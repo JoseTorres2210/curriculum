@@ -20,6 +20,31 @@ h2 {
 }
 
 
+
+body{
+ /* Modo de colocar los elementos internos en una rejilla */
+ display: grid; 
+
+ /* Separación entre filas */
+ row-gap: 0.5rem; 
+
+ /* Separación entre columnas */
+ column-gap: 0.5rem; 
+
+ /* Nombres de las áreas*/
+ grid-template-areas:"IN IN"
+                     "INFO IMG"
+                      "EDU EDU"
+                      "EL EL"
+                      "HAB HAB"
+                      "CON CON";
+
+}
+
+#inicio{
+    grid-area: IN;
+}
+
 #informacion-personal {
     background-color: #292936;
     color: #edf0ef;
@@ -27,10 +52,16 @@ h2 {
     margin: 20px;
     border: 1px solid black;
     padding: 10px;
-  
+    grid-area: INFO;
 }
+
 section#informacion-personal:ol {
     color: #262320;
+    grid-area: INFO;
+}
+
+#perfil{
+    grid-area: IMG;
 }
 
 #Educación {
@@ -40,10 +71,12 @@ section#informacion-personal:ol {
     margin: 20px;
     border: 1px solid black;
     padding: 10px;
+    grid-area: EDU;
  
 }
 section#Educación:ol {
     color: #262320;
+    grid-area: EDU;
 }
 
 #Experiencia-laboral {
@@ -53,10 +86,12 @@ section#Educación:ol {
     margin: 20px;
     border: 1px solid black;
     padding: 10px;
+    grid-area: EL;
 
 }
 section#Experiencia-laboral:ol {
     color: #262320;
+    grid-area: EL;
 }
 
 #habilidades {
@@ -66,10 +101,12 @@ section#Experiencia-laboral:ol {
     margin: 20px;
     border: 1px solid black;
     padding: 10px;
+    grid-area: HAB;
      
 }
 section#habilidades:ol {
     color: #262320;
+    grid-area: HAB;
 }
 
 #Contacto {
@@ -79,11 +116,15 @@ section#habilidades:ol {
     margin: 20px;
     border: 1px solid black;
     padding: 10px;
+    grid-area: CON;
       
 }
 section#Contacto:ol {
     color: #262320;
+    grid-area: CON;
 }
+
+
 
 
 
